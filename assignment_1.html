@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Snowman</title>
+    <meta name="description" content="Hello, WebVR! • A-Frame">
+    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene fog="type: linear; color: #AAA">
+        <a-sky color="lightblue"></a-sky>
+        <a-plane color="#4f6571" position="0 -2 -5" rotation="-90 0 0" width="11" height="8" shadow></a-plane>
+        <a-sphere position="0 3 -5" radius="1.25" wireframe="false" color="#f0f0f0">
+            <a-sphere color="#292929" radius="0.13" position="-0.35 -0.1 1.1"></a-sphere>
+            <a-sphere color="#292929" radius="0.13" position="0.35 -0.1 1.1"></a-sphere>
+            <a-cone color="tomato" radius-bottom="0.35" radius-top="0.01" rotation="90 -90 -90" position="0.05 -0.3 1" src="https://previews.123rf.com/images/joejoetock/joejoetock1604/joejoetock160400139/57340084-close-up-of-orange-carrot-wallpaper-texture.jpg"></a-cone>
+            
+            <a-cone color="orange" radius-bottom="2" radius-top="0.5" position="0 1.1 -0.3" src="https://i1.wp.com/blog.ultrafino.com/wp-content/uploads/2017/11/toquilla.jpg?resize=696%2C464&ssl=1" rotation="5 0 0"></a-cone>
+        </a-sphere>
+        <a-sphere position="0 0 -5" radius="2.25" wireframe="false" color="#f0f0f0" shadow>
+            <a-torus color="#f54029" radius="1.5" radius-tubular="0.1" position="0 2 0" rotation="90 0 0" src="https://thumbs.dreamstime.com/b/classic-buffalo-plaid-pattern-design-orange-buffalo-plaid-seamless-pattern-138564749.jpg"></a-torus>
+            <a-sphere color="#292929" position="0 1 1.7" radius="0.3">
+                <a-sphere color="#f0f0f0" position="0 0.12 0.2" radius="0.09" src="https://i.pinimg.com/originals/99/09/f7/9909f7b70198856d97f03ddb5b0e31dc.jpg"></a-sphere>
+            </a-sphere>
+            <a-sphere color="#292929" position="0 0.5 1.9" radius="0.3">
+                <a-sphere color="#f0f0f0" position="0 0.06 0.22" radius="0.09" src="https://i.pinimg.com/originals/99/09/f7/9909f7b70198856d97f03ddb5b0e31dc.jpg"></a-sphere>
+            </a-sphere>
+            <a-sphere color="#292929" position="0 -0.05 1.97" radius="0.3">
+                <a-sphere color="#f0f0f0" position="0 -0.01 0.23" radius="0.09" src="https://i.pinimg.com/originals/99/09/f7/9909f7b70198856d97f03ddb5b0e31dc.jpg"></a-sphere>
+            </a-sphere>
+        </a-sphere>
+        <a-cylinder position="1.45 1.45 -3.5" rotation="90" radius="0.03" height="2" color="#292929" shadow></a-cylinder>
+        <a-cylinder position="-1.45 1.45 -3.5" rotation="90" radius="0.03" height="2" color="#292929" shadow></a-cylinder>
+        </a-scene>>
+        
+    
+</body>
+
+</html>
